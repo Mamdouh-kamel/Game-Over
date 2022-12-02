@@ -27,14 +27,14 @@ export default function Signin() {
     let result = await axiosPost(formData, "signin");
     if (result.message === "success") {
       localStorage.setItem('token', result.token)
-      navigate("/home");
+      navigate("/Game-Over");
     } else {
       setloading(true);
       setErrorMsg(result.message);
     }
-    console.log(result);
+    // console.log(result);
   }
-  console.log(formData);
+  // console.log(formData);
 
 
   return (

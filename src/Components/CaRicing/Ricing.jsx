@@ -8,7 +8,7 @@ export default function Racing() {
     async function getData() {
       let racing = await resultRacing;
       setRacing(racing)
-      console.log(racing);
+      // console.log(racing);
     }
 
 

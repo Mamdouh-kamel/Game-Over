@@ -9,7 +9,7 @@ export default function Zombie() {
     async function getData() {
       let zombie = await resultZombie;
       setZombie(zombie)
-      console.log(zombie);
+      // console.log(zombie);
     }
 
 

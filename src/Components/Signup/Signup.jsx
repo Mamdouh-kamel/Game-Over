@@ -34,10 +34,10 @@ export default function Signup() {
       setloading(true);
       setErrorMsg(result.errors);
     }
-    console.log(result);
+    // console.log(result);
 
   }
-  console.log(formData);
+  // console.log(formData);
 
 
   return (

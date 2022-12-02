@@ -8,7 +8,7 @@ export default function SortPopularity() {
     async function getData() {
       let alphapet = await resultPopularity;
       setPopularity(alphapet)
-      console.log(alphapet);
+      // console.log(alphapet);
     }
 
 

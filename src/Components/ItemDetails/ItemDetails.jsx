@@ -27,7 +27,7 @@ export default function ItemDetails() {
   async function getData() {
     let details = await resultDetails(`https://free-to-play-games-database.p.rapidapi.com/api/game?id=${x.id}`, GameOptions);
     setDetails(details);
-    console.log(Details);
+    // console.log(Details);
   }
 
   useEffect(() => {

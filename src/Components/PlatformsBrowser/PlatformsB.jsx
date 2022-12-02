@@ -13,7 +13,7 @@ export default function PlatformsB() {
     async function getData() {
       let browser = await resultBrowser;
       setBrowser(browser)
-      console.log(browser);
+      // console.log(browser);
     }
 
 

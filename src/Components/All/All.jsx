@@ -11,7 +11,7 @@ export default function All() {
   async function getData() {
     let all = await resultAll
     setAll(all);
-    console.log(all);
+    // console.log(all);
   }
   // console.log(All);
 

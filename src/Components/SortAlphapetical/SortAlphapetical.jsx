@@ -9,7 +9,7 @@ export default function SortAlphapetical() {
     async function getData() {
       let alphapet = await resultAlphapet;
       setAlphapet(alphapet)
-      console.log(alphapet);
+      // console.log(alphapet);
     }
 
 

@@ -38,7 +38,7 @@ const options = {
       // console.log(data);
       return data;
   }).catch(function (error) {
-      console.error(error);
+      // console.error(error);
       return error
   });
   
@@ -59,7 +59,7 @@ export let resultPc = axios.request(pc).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- Browser Api -----------------------------------------------------------
@@ -78,7 +78,7 @@ export let resultBrowser = axios.request(browser).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 
@@ -98,7 +98,7 @@ export let resultAlphapet = axios.request(alphapet).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- ReleaseDate Api -----------------------------------------------------------
@@ -117,7 +117,7 @@ export let resultReleaseDate = axios.request(releaseData).then(function ({data})
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- Popularity Api -----------------------------------------------------------
@@ -136,7 +136,7 @@ export let resultPopularity = axios.request(popularity).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- Relevance Api -----------------------------------------------------------
@@ -155,7 +155,7 @@ export let resultRelevance = axios.request(relevance).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- Shooter Api -----------------------------------------------------------
@@ -174,7 +174,7 @@ export let resultShooter = axios.request(shooter).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- Fantasy Api -----------------------------------------------------------
@@ -193,7 +193,7 @@ export let resultFantasy = axios.request(fantasy).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- Battle Api -----------------------------------------------------------
@@ -212,7 +212,7 @@ export let resultBattle = axios.request(battle).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 
@@ -232,7 +232,7 @@ export let resultSocial = axios.request(social).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 
@@ -252,7 +252,7 @@ export let resultSports = axios.request(sports).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 
@@ -272,7 +272,7 @@ export let resultZombie = axios.request(zombie).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- Flight Api -----------------------------------------------------------
@@ -291,7 +291,7 @@ export let resultFlight = axios.request(flight).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- OpenWorld Api -----------------------------------------------------------
@@ -310,7 +310,7 @@ export let resultOpenWorld = axios.request(openWorld).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 //---------------------------------------------------- Racing Api -----------------------------------------------------------
@@ -329,7 +329,7 @@ export let resultRacing = axios.request(racing).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 
@@ -349,7 +349,7 @@ export let resultActionRbj = axios.request(actionRbj).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 
@@ -369,7 +369,7 @@ export let resultAction = axios.request(action).then(function ({data}) {
     // console.log(data);
     return data;
 }).catch(function (error) {
-    console.error(error);
+    // console.error(error);
     return error
 });
 
@@ -414,7 +414,7 @@ export let axiosPost = async (form_Data, endPoint) => {
 //     // console.log(data);
 //     return data;
 //   }).catch(function (error) {
-//     console.error(error);
+    // console.error(error);
 //     return error
 //   });
 

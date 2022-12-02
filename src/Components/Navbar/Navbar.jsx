@@ -16,7 +16,7 @@ export default function Navbar(props) {
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                             {!props.auth ? <>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/home">Home</NavLink>
+                                    <NavLink className="nav-link" to="/Game-Over">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/all">All</NavLink>

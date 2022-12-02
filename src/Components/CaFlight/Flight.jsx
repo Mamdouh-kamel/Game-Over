@@ -9,7 +9,7 @@ export default function Flight() {
     async function getData() {
       let flight = await resultFlight;
       setFlight(flight)
-      console.log(flight);
+      // console.log(flight);
     }
 
 

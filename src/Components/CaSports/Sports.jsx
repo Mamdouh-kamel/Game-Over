@@ -9,7 +9,7 @@ export default function Sports() {
     async function getData() {
       let sports = await resultSports;
       setSports(sports)
-      console.log(sports);
+      // console.log(sports);
     }
 
 

@@ -9,7 +9,7 @@ export default function Fantasy() {
     async function getData() {
       let fantasy = await resultFantasy;
       setFantasy(fantasy)
-      console.log(fantasy);
+      // console.log(fantasy);
     }
 
 

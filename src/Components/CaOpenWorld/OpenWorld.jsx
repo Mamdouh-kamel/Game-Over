@@ -9,7 +9,7 @@ export default function OpenWorld() {
     async function getData() {
       let openWorld = await resultOpenWorld;
       setOpenWorld(openWorld)
-      console.log(openWorld);
+      // console.log(openWorld);
     }
 
 

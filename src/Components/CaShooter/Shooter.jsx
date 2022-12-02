@@ -9,7 +9,7 @@ export default function Shooter() {
     async function getData() {
       let shooter = await resultShooter;
       setShooter(shooter)
-      console.log(shooter);
+      // console.log(shooter);
     }
 
 

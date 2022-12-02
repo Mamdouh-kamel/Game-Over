@@ -12,7 +12,7 @@ export default function Platforms() {
   async function getData() {
     let pc = await resultPc;
     setPc(pc)
-    console.log(pc);
+    // console.log(pc);
   }
   useEffect(() => {
     getData()

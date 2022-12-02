@@ -9,7 +9,7 @@ export default function Battle() {
     async function getData() {
       let battle = await resultBattle;
       setBattle(battle)
-      console.log(battle);
+      // console.log(battle);
     }
 
 

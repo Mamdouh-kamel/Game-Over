@@ -33,7 +33,7 @@ let routes = createBrowserRouter([
   {
     path: '/', element: <SystemLayout />, children: [
       { index: true, element: <ProtectedRoutes ><Home /></ProtectedRoutes>},
-      { path: 'home', element: <ProtectedRoutes ><Home /></ProtectedRoutes> },
+      { path: 'Game-Over', element: <ProtectedRoutes ><Home /></ProtectedRoutes> },
       { path: 'all', element: <ProtectedRoutes ><All /></ProtectedRoutes> },
       { path: 'platforms/pc', element: <ProtectedRoutes ><Platforms /></ProtectedRoutes> },
       { path: 'platforms/browser', element: <ProtectedRoutes ><PlatformsB /></ProtectedRoutes> },

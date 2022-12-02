@@ -6,9 +6,9 @@ import Loading from '../Loading/Loading';
 export default function SortRelevance() {
     const [Relevance, setRelevance] = useState([]);
     async function getData() {
-      let alphapet = await resultRelevance;
-      setRelevance(alphapet)
-      console.log(alphapet);
+      let relevance = await resultRelevance;
+      setRelevance(relevance)
+      // console.log(relevance);
     }
 
 

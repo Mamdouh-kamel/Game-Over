@@ -9,7 +9,7 @@ export default function SortReleaseDate() {
     async function getData() {
       let releaseData = await resultReleaseDate;
       setReleaseDate(releaseData)
-      console.log(releaseData);
+      // console.log(releaseData);
     }
 
 

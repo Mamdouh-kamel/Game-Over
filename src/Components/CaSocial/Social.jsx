@@ -9,7 +9,7 @@ export default function Social() {
     async function getData() {
       let social = await resultSocial;
       setSocial(social)
-      console.log(social);
+      // console.log(social);
     }
 
 

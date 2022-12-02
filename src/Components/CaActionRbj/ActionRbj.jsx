@@ -12,7 +12,7 @@ export default function ActionRbj() {
   async function getData() {
     let actionRbj = await resultActionRbj;
     setActionRbj(actionRbj)
-    console.log(actionRbj);
+    // console.log(actionRbj);
   }
 
 
