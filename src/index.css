@@ -3,11 +3,61 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #272b30;
+  color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.card:hover{
+  transform: scale(1.04);
+}
+.nav-link:hover, .active{
+
+  color: #ffc107 !important;
+}
+.badge-genre{
+  font-size: 10px;
+}
+.m-top{
+  padding-top: 30px;
+}
+.logo{
+  width: 70px;
+  filter: drop-shadow(0px 2px 2px #ffc107);
+  margin-right: 5px;
+}
+.spinner-border{
+  margin: 0px 2px 1px 0px;
+}
+ul{
+  list-style: none;
+}
+hr{
+  border-top: 1px solid rgba(121, 115, 115, 0.726);
+}
+.image-wrapper{
+  position: relative;
+}
+.loader-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,47,255,.247);
+  display: none;
+}
+.spinner-grow{
+  color: #49acff !important;
+  animation-duration: 1s;
+
+}
+.card:hover .loader-wrapper{
+  display: flex;
 }

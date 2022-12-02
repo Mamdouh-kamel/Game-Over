@@ -1,0 +1,11 @@
+.imge{
+    background:linear-gradient(0deg, rgba(15, 17, 0, 0.699), rgba(74, 75, 3, 0.452)),url(../../imgs/1000_F_220010016_U1dgYIpoNtMRBF45nkAm94tbrSdHMlWh.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.register{
+    background-color: #32383e;
+}
+.foot{
+    font-size: 14px;
+}
