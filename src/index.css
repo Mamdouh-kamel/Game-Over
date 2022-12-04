@@ -61,3 +61,6 @@ hr{
 .card:hover .loader-wrapper{
   display: flex;
 }
+.top-sign{
+  margin: 100px;
+}

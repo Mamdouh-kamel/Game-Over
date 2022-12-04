@@ -17,7 +17,7 @@ export default function SortRelevance() {
       }, [])
   return (
     <>
-        {Relevance.length > 0 ? <div className="container my-5">
+        {Relevance.length > 0 ? <div className="container m-top my-5">
           <div className="row g-4 mt-3">
             {Relevance.map((val, index) => (<Item data={val} key={index} />))}
           </div>

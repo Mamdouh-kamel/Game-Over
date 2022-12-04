@@ -42,7 +42,7 @@ export default function Signup() {
 
   return (
     <>
-    <div className="container">
+    <div className="container top-sign">
       <div className="row g-0 overflow-hidden my-3">
         <div className={`col-md-6 d-block ${Styles.imge}`}>
         </div>
