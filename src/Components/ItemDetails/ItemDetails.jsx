@@ -155,7 +155,7 @@ export default function ItemDetails() {
                       slidesPerView={1}
                       modules={[Pagination, Autoplay]}
                       pagination={{ clickable: true }}
-                      autoplay={{ delay: 4000 }}
+                      autoplay={{ delay: 3000 }}
                       loop={true}>
                       {cloneItem}
                     </Swiper>

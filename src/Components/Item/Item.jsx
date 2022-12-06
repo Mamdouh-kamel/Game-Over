@@ -5,7 +5,7 @@ export default function Item(props) {
   let { title, thumbnail, short_description, genre, id } = props.data
   return (
     <>
-      <div className="col-md-3">
+      <div className="col-xl-3 col-lg-4 col-md-6">
         <Link className='text-decoration-none' to={`/details/${id}`}>
           <div className="card bg-dark shadow border border-warning border-opacity-25">
             <div className="image-wrapper">
